@@ -1,0 +1,69 @@
+body, html {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: lavender; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+header {
+  width: 100%;
+  background-color: lavender;
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 2px solid gray; }
+  header .wrap {
+    width: 1000px;
+    margin: 0 auto;
+    height: 70px; }
+    header .wrap .title {
+      font-size: 25px;
+      color: #000;
+      font-weight: bold;
+      width: 150px;
+      float: left; }
+    header .wrap ul.nav {
+      float: right;
+      width: 400px;
+      height: 70px; }
+      header .wrap ul.nav li {
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 16px;
+        font-weight: bold; }
+      header .wrap ul.nav li:hover {
+        background: purple;
+        color: #fff; }
+
+.main {
+  width: 1000px;
+  font-size: 20px;
+  color: #000000;
+  margin: 0 auto; }
+  .main .p1 {
+    font-style: italic; }
+  .main .p2 {
+    font-size: 25px; }
+
+footer {
+  width: 100%;
+  background: gray; }
+  footer .wrap {
+    width: 1000px;
+    margin: 0 auto;
+    height: 105px;
+    line-height: 105px;
+    font-size: 16px;
+    color: #000;
+    text-align: center; }
+    footer .wrap li {
+      display: inline-block;
+      padding: 5px 10px; }
+    footer .wrap a {
+      text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
